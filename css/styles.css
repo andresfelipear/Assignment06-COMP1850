@@ -88,17 +88,31 @@ body
     color: #fff;
 }
 
-header .left-nav a
+header a
 {
-    color: var(--secondary)
+    font-weight: bold;
 }
 
-header .right-nav a i, header .right-nav span
+header a:hover
+{
+    text-decoration: none;
+}
+header .left-nav a
+{
+    color: var(--secondary);
+}
+
+header .left-nav a:hover
+{
+    color: var(--primary);
+}
+
+header .right-nav a
 {
     color: var(--fifth);
 }
 
-header .right-nav a i:hover
+header .right-nav a:hover
 {
     color:var(--secondary);
 }
@@ -118,13 +132,13 @@ footer .basicFooter a
 
 nav ul li a
 {
-    font-size: 0.85em;
+    font-size: 0.85rem;
     font-weight: bold;
 }
 
 footer .footerBody
 {
-    font-size: 0.85em;
+    font-size: 0.85rem;
 }
 
 main section article h3
